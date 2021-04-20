@@ -1,16 +1,47 @@
 <?php
 
+
+// https://www.w3schools.com/php/php_operators.asp
+
+// $x = 10;  
+// $y = "10";
+
+// echo $x != $y;
+
+
+// echo "<hr>";
+
+
+
+
+
+
+
+// https://www.w3schools.com/php/php_variables.asp
+
 $email = $_POST['email'];
 $name = $_POST['name'];
 $message = $_POST['message'];
 
 $oguulber = "Variables can store data of different types, and different data types can do different things.";
 
+if($email == "") {
+    echo "Email xayag xooson baina";
+    echo "<br>";
+    die();
+}
 
+if($name == "") {
+    echo "Ner xooson baina";
+    echo "<br>";
+    die();
+}
 
-
-
-
+if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+}
 
 
 
