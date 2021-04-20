@@ -25,23 +25,67 @@ $message = $_POST['message'];
 
 $oguulber = "Variables can store data of different types, and different data types can do different things.";
 
-if($email == "") {
+// echo ($email);
+// echo "<br>";
+// echo strlen($email);
+// die();
+
+
+if(strlen($email) == 0) {
     echo "Email xayag xooson baina";
     echo "<br>";
     die();
-}
-
-if($name == "") {
+} else if($name == "") {
     echo "Ner xooson baina";
     echo "<br>";
     die();
-}
-
-if($message == "") {
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
+    echo "Message xooson baina";
+    echo "<br>";
+    die();
+} else if($message == "") {
     echo "Message xooson baina";
     echo "<br>";
     die();
 }
+
+
 
 
 
